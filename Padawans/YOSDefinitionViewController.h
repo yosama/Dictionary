@@ -8,19 +8,20 @@
 
 #define WORD_DID_CHANGE_CHANGE_NOTIFICATION_NAME
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 #import "YOSWordsModel.h"
+#import "YOSWordsTableViewController.h"
 
 
-@interface YOSDefinitionViewController : UIViewController
+@interface YOSDefinitionViewController : UIViewController<YOSWordsTableViewControllerDelegate, UISplitViewControllerDelegate, UIWebViewDelegate>
 
-@property (strong,nonatomic) YOSWordsModel *model;
+@property (copy) NSString *model;
 @property (weak,nonatomic) IBOutlet UIWebView *browser;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
 
 // Designated
 
--(id) initWithModel:(YOSWordsModel*) pModel;
+-(id) initWithModel:(NSString *) aModel;
 
 @end

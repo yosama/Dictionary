@@ -18,9 +18,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    [self configuration];
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad ) {
+        
+        [self configureForIpad];
+    } else {
+        
+        [self configureForIPhone];
+    }
+    
     
     [self.window makeKeyAndVisible];
     
@@ -50,33 +56,68 @@
 }
 
 
--(void) configuration{
+
+#pragma mark - Configuration
+
+
+-(void) configureForIpad {
     
-    //Creo el modelo
-    YOSWordsModel *model = [[YOSWordsModel alloc] init];
+    // Create model
+    YOSWordsModel *model = [[YOSWordsModel alloc]init];
     
-    //Creo el controlador
-    YOSWordsTableViewController *wordVC = [[YOSWordsTableViewController alloc] initWithModel:model
-                                                                                       style:UITableViewStylePlain];
+    // Create controllers
+    YOSWordsTableViewController *wordsTVC = [[YOSWordsTableViewController alloc] initWithModel:model
+                                                                                        style:UITableViewStylePlain];
     
-    YOSDefinitionViewController *definitionVC = [[YOSDefinitionViewController alloc]
-                                                 initWithModel:model];
+    YOSDefinitionViewController *definitionVC = [[YOSDefinitionViewController alloc] initWithModel:[model wordAtIndex:0 inLetterAtIndex:0]];
     
-    // Creo el combinador
-    UINavigationController *wordNav = [[UINavigationController alloc] init];
-    [wordNav pushViewController:wordVC
+    // Create combinators
+    //NavigationController of wordNav
+    UINavigationController *wordNav = [[UINavigationController alloc]init];
+    [wordNav pushViewController:wordsTVC animated:NO];
+    
+    // NavigationController of definitionVC
+    UINavigationController *definitionNav = [[UINavigationController alloc] init];
+    [definitionNav pushViewController:definitionVC
                        animated:NO];
     
-    UINavigationController *definitionNav = [[UINavigationController alloc]init];
-    [definitionNav pushViewController:definitionVC
-                             animated:NO];
-    
+    // Create SplitViewController
     UISplitViewController *splitVC = [[UISplitViewController alloc] init];
+    [splitVC setViewControllers:@[wordNav, definitionNav]];
     
-    [splitVC setViewControllers:@[wordNav,definitionNav]];
+    // Assign Delegate
     
+    wordsTVC.delegate = definitionVC;
+    splitVC.delegate = definitionVC;
+    
+    // Assign splitVC to rootViewController
     self.window.rootViewController = splitVC;
 
+}
+
+
+
+-(void) configureForIPhone {
+    
+    // Create model
+    YOSWordsModel *model = [[YOSWordsModel alloc]init];
+    
+    // Create controllers
+    YOSWordsTableViewController *wordsTVC = [[YOSWordsTableViewController alloc] initWithModel:model
+                                                                                         style:UITableViewStylePlain];
+    
+    YOSDefinitionViewController *definitionVC = [[YOSDefinitionViewController alloc] initWithModel:[model wordAtIndex:0 inLetterAtIndex:0]];
+    
+    // Create combinators
+    //NavigationController of wordNav
+    UINavigationController *wordNav = [[UINavigationController alloc]init];
+    [wordNav pushViewController:definitionVC animated:NO];
+    
+    // Assign Delegate
+    
+    wordsTVC.delegate = definitionVC;
+    
+    self.window.rootViewController = wordsTVC;
 }
 
 

@@ -15,13 +15,15 @@
 @implementation YOSDefinitionViewController
 
 
+
 #pragma mark - Init
 
--(id) initWithModel:(YOSWordsModel*) pModel{
+
+-(id) initWithModel:(NSString *) aModel {
     
-    if (self = [super init]){
-        _model = pModel;
+    if (self = [super init]) {
         
+        _model = aModel;
         
         [self syncModelToView];
         
@@ -30,19 +32,26 @@
 }
 
 
+
 #pragma mark - Utils
 
+
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
+    
+    self.title = self.model;
     
    
 }
 
+
+
 // La vista esta creada y ya esta lista para ser cargada
--(void) viewWillAppear:(BOOL)animated
+-(void) viewWillAppear:(BOOL)animated {
 
-{
-
+    [super viewWillAppear:animated];
+    
     //Asignamos el delegado
     self.browser.delegate = self;
     
@@ -50,10 +59,16 @@
 }
 
 
--(void) viewWillDisappear:(BOOL)animated{
+
+-(void) viewWillDisappear:(BOOL)animated {
+
+    [super viewWillDisappear:YES];
+    
     NSNotificationCenter *nc = [NSNotificationCenter defaultCenter];
     [nc removeObserver:self];
+
 }
+
 
 
 - (void)didReceiveMemoryWarning {
@@ -77,6 +92,7 @@
                   [NSString stringWithFormat:@"http://www.merriam-webster.com/dictionary/%@", aWord]];
     
     NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
     return request;
 }
 
@@ -92,32 +108,66 @@
 */
 
 
+
 -(void) syncModelToView{
     
-    NSString *word = [self.model wo]
     
-    [self.browser loadRequest:[self definitionRequestForWord:<#(NSString *)#>]]
+    [self.browser loadRequest:[self definitionRequestForWord:self.model]];
     
     
 }
+
 
 
 #pragma mark - UISplitViewControllerDelegate
 
--(void) splitViewController:(UISplitViewController *)svc
-     willHideViewController:(UIViewController *)aViewController
-          withBarButtonItem:(UIBarButtonItem *)barButtonItem
-       forPopoverController:(UIPopoverController *)pc{
-    
-    
+
+
+-(void) splitViewController:(UISplitViewController *)svc willHideViewController:(UIViewController *)aViewController withBarButtonItem:(UIBarButtonItem *)barButtonItem forPopoverController:(UIPopoverController *)pc {
     
     //¿Qué había que poner aquí?
+    self.navigationItem.rightBarButtonItem = barButtonItem;
+    
 }
 
--(void) splitViewController:(UISplitViewController *)svc
-     willShowViewController:(UIViewController *)aViewController
-  invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem{
+
+
+-(void) splitViewController:(UISplitViewController *)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem {
     
     // ¿Y aquí?
+    
+     self.navigationItem.rightBarButtonItem = nil;
+    
 }
+
+
+
+#pragma mark - YOSWordsTableViewControllerDelegate
+
+
+-(void) wordsTableViewController: (YOSWordsTableViewController *) sender didClickOnWord: (NSString *) aWord {
+    
+    
+    self.model = aWord;
+    
+    YOSWordsTableViewController *wordTVC = sender;
+    
+    wordTVC.delegate = self;
+    
+    [self definitionRequestForWord:aWord];
+    
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 @end

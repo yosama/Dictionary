@@ -12,11 +12,11 @@
 		DB0A602B1A69124B008D4F0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0A602A1A69124B008D4F0E /* Images.xcassets */; };
 		DB0A602E1A69124B008D4F0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB0A602C1A69124B008D4F0E /* LaunchScreen.xib */; };
 		DB0A603A1A69124B008D4F0E /* PadawansTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A60391A69124B008D4F0E /* PadawansTests.m */; };
-		DB0A60451A6914C2008D4F0E /* YOSWordsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A60441A6914C2008D4F0E /* YOSWordsModel.m */; };
-		DB0A60471A69192F008D4F0E /* vocabwords.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB0A60461A69192F008D4F0E /* vocabwords.txt */; };
-		DB0A604B1A691AD2008D4F0E /* YOSWordsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A604A1A691AD2008D4F0E /* YOSWordsTableViewController.m */; };
-		DB0A604F1A6946C4008D4F0E /* YOSDefinitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A604D1A6946C4008D4F0E /* YOSDefinitionViewController.m */; };
-		DB0A60501A6946C4008D4F0E /* YOSDefinitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB0A604E1A6946C4008D4F0E /* YOSDefinitionViewController.xib */; };
+		DB529DCB1A81A6A900339A12 /* vocabwords.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB529DC31A81A6A900339A12 /* vocabwords.txt */; };
+		DB529DCC1A81A6A900339A12 /* YOSDefinitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB529DC51A81A6A900339A12 /* YOSDefinitionViewController.m */; };
+		DB529DCD1A81A6A900339A12 /* YOSDefinitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB529DC61A81A6A900339A12 /* YOSDefinitionViewController.xib */; };
+		DB529DCE1A81A6A900339A12 /* YOSWordsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB529DC81A81A6A900339A12 /* YOSWordsModel.m */; };
+		DB529DCF1A81A6A900339A12 /* YOSWordsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB529DCA1A81A6A900339A12 /* YOSWordsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +40,14 @@
 		DB0A60331A69124B008D4F0E /* PadawansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PadawansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB0A60381A69124B008D4F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DB0A60391A69124B008D4F0E /* PadawansTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PadawansTests.m; sourceTree = "<group>"; };
-		DB0A60431A6914C2008D4F0E /* YOSWordsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSWordsModel.h; sourceTree = "<group>"; };
-		DB0A60441A6914C2008D4F0E /* YOSWordsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSWordsModel.m; sourceTree = "<group>"; };
-		DB0A60461A69192F008D4F0E /* vocabwords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vocabwords.txt; sourceTree = "<group>"; };
-		DB0A60491A691AD2008D4F0E /* YOSWordsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSWordsTableViewController.h; sourceTree = "<group>"; };
-		DB0A604A1A691AD2008D4F0E /* YOSWordsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSWordsTableViewController.m; sourceTree = "<group>"; };
-		DB0A604C1A6946C4008D4F0E /* YOSDefinitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSDefinitionViewController.h; sourceTree = "<group>"; };
-		DB0A604D1A6946C4008D4F0E /* YOSDefinitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSDefinitionViewController.m; sourceTree = "<group>"; };
-		DB0A604E1A6946C4008D4F0E /* YOSDefinitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YOSDefinitionViewController.xib; sourceTree = "<group>"; };
+		DB529DC31A81A6A900339A12 /* vocabwords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vocabwords.txt; path = Padawans/vocabwords.txt; sourceTree = "<group>"; };
+		DB529DC41A81A6A900339A12 /* YOSDefinitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSDefinitionViewController.h; sourceTree = "<group>"; };
+		DB529DC51A81A6A900339A12 /* YOSDefinitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSDefinitionViewController.m; sourceTree = "<group>"; };
+		DB529DC61A81A6A900339A12 /* YOSDefinitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YOSDefinitionViewController.xib; sourceTree = "<group>"; };
+		DB529DC71A81A6A900339A12 /* YOSWordsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSWordsModel.h; sourceTree = "<group>"; };
+		DB529DC81A81A6A900339A12 /* YOSWordsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSWordsModel.m; sourceTree = "<group>"; };
+		DB529DC91A81A6A900339A12 /* YOSWordsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSWordsTableViewController.h; sourceTree = "<group>"; };
+		DB529DCA1A81A6A900339A12 /* YOSWordsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSWordsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,14 +71,6 @@
 		DB0A60171A69124A008D4F0E = {
 			isa = PBXGroup;
 			children = (
-				DB0A604C1A6946C4008D4F0E /* YOSDefinitionViewController.h */,
-				DB0A604D1A6946C4008D4F0E /* YOSDefinitionViewController.m */,
-				DB0A604E1A6946C4008D4F0E /* YOSDefinitionViewController.xib */,
-				DB0A60491A691AD2008D4F0E /* YOSWordsTableViewController.h */,
-				DB0A604A1A691AD2008D4F0E /* YOSWordsTableViewController.m */,
-				DB0A60481A69193A008D4F0E /* Resources */,
-				DB0A60431A6914C2008D4F0E /* YOSWordsModel.h */,
-				DB0A60441A6914C2008D4F0E /* YOSWordsModel.m */,
 				DB0A60221A69124A008D4F0E /* Padawans */,
 				DB0A60361A69124B008D4F0E /* PadawansTests */,
 				DB0A60211A69124A008D4F0E /* Products */,
@@ -97,6 +89,9 @@
 		DB0A60221A69124A008D4F0E /* Padawans */ = {
 			isa = PBXGroup;
 			children = (
+				DB529DD01A81A6E000339A12 /* Controllers */,
+				DB529DD11A81A6F000339A12 /* Models */,
+				DB0A60481A69193A008D4F0E /* Resources */,
 				DB0A60271A69124B008D4F0E /* AppDelegate.h */,
 				DB0A60281A69124B008D4F0E /* AppDelegate.m */,
 				DB0A602A1A69124B008D4F0E /* Images.xcassets */,
@@ -135,9 +130,31 @@
 		DB0A60481A69193A008D4F0E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DB0A60461A69192F008D4F0E /* vocabwords.txt */,
+				DB529DC31A81A6A900339A12 /* vocabwords.txt */,
 			);
 			name = Resources;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		DB529DD01A81A6E000339A12 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DB529DC41A81A6A900339A12 /* YOSDefinitionViewController.h */,
+				DB529DC51A81A6A900339A12 /* YOSDefinitionViewController.m */,
+				DB529DC61A81A6A900339A12 /* YOSDefinitionViewController.xib */,
+				DB529DC91A81A6A900339A12 /* YOSWordsTableViewController.h */,
+				DB529DCA1A81A6A900339A12 /* YOSWordsTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DB529DD11A81A6F000339A12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DB529DC71A81A6A900339A12 /* YOSWordsModel.h */,
+				DB529DC81A81A6A900339A12 /* YOSWordsModel.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,6 +201,7 @@
 		DB0A60181A69124A008D4F0E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YOS;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = yos;
 				TargetAttributes = {
@@ -221,9 +239,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB0A602E1A69124B008D4F0E /* LaunchScreen.xib in Resources */,
-				DB0A60471A69192F008D4F0E /* vocabwords.txt in Resources */,
+				DB529DCD1A81A6A900339A12 /* YOSDefinitionViewController.xib in Resources */,
+				DB529DCB1A81A6A900339A12 /* vocabwords.txt in Resources */,
 				DB0A602B1A69124B008D4F0E /* Images.xcassets in Resources */,
-				DB0A60501A6946C4008D4F0E /* YOSDefinitionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,10 +259,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB529DCC1A81A6A900339A12 /* YOSDefinitionViewController.m in Sources */,
+				DB529DCE1A81A6A900339A12 /* YOSWordsModel.m in Sources */,
+				DB529DCF1A81A6A900339A12 /* YOSWordsTableViewController.m in Sources */,
 				DB0A60291A69124B008D4F0E /* AppDelegate.m in Sources */,
-				DB0A604B1A691AD2008D4F0E /* YOSWordsTableViewController.m in Sources */,
-				DB0A60451A6914C2008D4F0E /* YOSWordsModel.m in Sources */,
-				DB0A604F1A6946C4008D4F0E /* YOSDefinitionViewController.m in Sources */,
 				DB0A60261A69124B008D4F0E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -364,6 +382,7 @@
 				INFOPLIST_FILE = Padawans/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -374,6 +393,7 @@
 				INFOPLIST_FILE = Padawans/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -430,6 +450,7 @@
 				DB0A603F1A69124B008D4F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DB0A60401A69124B008D4F0E /* Build configuration list for PBXNativeTarget "PadawansTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +459,7 @@
 				DB0A60421A69124B008D4F0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,19 +1,19 @@
 //
-//  PadawansTests.m
-//  PadawansTests
+//  DictionaryTests.m
+//  DictionaryTests
 //
-//  Created by Yosnier on 16/01/15.
-//  Copyright (c) 2015 yos. All rights reserved.
+//  Created by Yosnier on 04/02/15.
+//  Copyright (c) 2015 YOS. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface PadawansTests : XCTestCase
+@interface DictionaryTests : XCTestCase
 
 @end
 
-@implementation PadawansTests
+@implementation DictionaryTests
 
 - (void)setUp {
     [super setUp];

@@ -7,58 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DB0A60261A69124B008D4F0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A60251A69124B008D4F0E /* main.m */; };
-		DB0A60291A69124B008D4F0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A60281A69124B008D4F0E /* AppDelegate.m */; };
-		DB0A602B1A69124B008D4F0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB0A602A1A69124B008D4F0E /* Images.xcassets */; };
-		DB0A602E1A69124B008D4F0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB0A602C1A69124B008D4F0E /* LaunchScreen.xib */; };
-		DB0A603A1A69124B008D4F0E /* PadawansTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB0A60391A69124B008D4F0E /* PadawansTests.m */; };
-		DB529DCB1A81A6A900339A12 /* vocabwords.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB529DC31A81A6A900339A12 /* vocabwords.txt */; };
-		DB529DCC1A81A6A900339A12 /* YOSDefinitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB529DC51A81A6A900339A12 /* YOSDefinitionViewController.m */; };
-		DB529DCD1A81A6A900339A12 /* YOSDefinitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB529DC61A81A6A900339A12 /* YOSDefinitionViewController.xib */; };
-		DB529DCE1A81A6A900339A12 /* YOSWordsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB529DC81A81A6A900339A12 /* YOSWordsModel.m */; };
-		DB529DCF1A81A6A900339A12 /* YOSWordsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB529DCA1A81A6A900339A12 /* YOSWordsTableViewController.m */; };
+		DBD79BEE1A82C5250059F4D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD79BED1A82C5250059F4D8 /* main.m */; };
+		DBD79BF31A82C5250059F4D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD79BF21A82C5250059F4D8 /* Images.xcassets */; };
+		DBD79BF61A82C5250059F4D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD79BF41A82C5250059F4D8 /* LaunchScreen.xib */; };
+		DBD79C021A82C5250059F4D8 /* DictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD79C011A82C5250059F4D8 /* DictionaryTests.m */; };
+		DBD79C551A82CC440059F4D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD79C541A82CC440059F4D8 /* AppDelegate.m */; };
+		DBD79C851A82D1270059F4D8 /* vocabwords.txt in Resources */ = {isa = PBXBuildFile; fileRef = DBD79C7D1A82D1270059F4D8 /* vocabwords.txt */; };
+		DBD79C861A82D1270059F4D8 /* YOSDefinitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD79C7F1A82D1270059F4D8 /* YOSDefinitionViewController.m */; };
+		DBD79C871A82D1270059F4D8 /* YOSDefinitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD79C801A82D1270059F4D8 /* YOSDefinitionViewController.xib */; };
+		DBD79C881A82D1270059F4D8 /* YOSWordsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD79C821A82D1270059F4D8 /* YOSWordsModel.m */; };
+		DBD79C891A82D1270059F4D8 /* YOSWordsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD79C841A82D1270059F4D8 /* YOSWordsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		DB0A60341A69124B008D4F0E /* PBXContainerItemProxy */ = {
+		DBD79BFC1A82C5250059F4D8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DB0A60181A69124A008D4F0E /* Project object */;
+			containerPortal = DBD79BE01A82C5250059F4D8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DB0A601F1A69124A008D4F0E;
-			remoteInfo = Padawans;
+			remoteGlobalIDString = DBD79BE71A82C5250059F4D8;
+			remoteInfo = Dictionary;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DB0A60201A69124A008D4F0E /* Padawans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Padawans.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB0A60241A69124A008D4F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB0A60251A69124B008D4F0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		DB0A60271A69124B008D4F0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		DB0A60281A69124B008D4F0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DB0A602A1A69124B008D4F0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		DB0A602D1A69124B008D4F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		DB0A60331A69124B008D4F0E /* PadawansTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PadawansTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB0A60381A69124B008D4F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DB0A60391A69124B008D4F0E /* PadawansTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PadawansTests.m; sourceTree = "<group>"; };
-		DB529DC31A81A6A900339A12 /* vocabwords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = vocabwords.txt; path = Padawans/vocabwords.txt; sourceTree = "<group>"; };
-		DB529DC41A81A6A900339A12 /* YOSDefinitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSDefinitionViewController.h; sourceTree = "<group>"; };
-		DB529DC51A81A6A900339A12 /* YOSDefinitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSDefinitionViewController.m; sourceTree = "<group>"; };
-		DB529DC61A81A6A900339A12 /* YOSDefinitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YOSDefinitionViewController.xib; sourceTree = "<group>"; };
-		DB529DC71A81A6A900339A12 /* YOSWordsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSWordsModel.h; sourceTree = "<group>"; };
-		DB529DC81A81A6A900339A12 /* YOSWordsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSWordsModel.m; sourceTree = "<group>"; };
-		DB529DC91A81A6A900339A12 /* YOSWordsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSWordsTableViewController.h; sourceTree = "<group>"; };
-		DB529DCA1A81A6A900339A12 /* YOSWordsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSWordsTableViewController.m; sourceTree = "<group>"; };
+		DBD79BE81A82C5250059F4D8 /* Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD79BEC1A82C5250059F4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD79BED1A82C5250059F4D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DBD79BEF1A82C5250059F4D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DBD79BF21A82C5250059F4D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DBD79BF51A82C5250059F4D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DBD79BFB1A82C5250059F4D8 /* DictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBD79C001A82C5250059F4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD79C011A82C5250059F4D8 /* DictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DictionaryTests.m; sourceTree = "<group>"; };
+		DBD79C541A82CC440059F4D8 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBD79C7D1A82D1270059F4D8 /* vocabwords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vocabwords.txt; sourceTree = "<group>"; };
+		DBD79C7E1A82D1270059F4D8 /* YOSDefinitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSDefinitionViewController.h; sourceTree = "<group>"; };
+		DBD79C7F1A82D1270059F4D8 /* YOSDefinitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSDefinitionViewController.m; sourceTree = "<group>"; };
+		DBD79C801A82D1270059F4D8 /* YOSDefinitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YOSDefinitionViewController.xib; sourceTree = "<group>"; };
+		DBD79C811A82D1270059F4D8 /* YOSWordsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSWordsModel.h; sourceTree = "<group>"; };
+		DBD79C821A82D1270059F4D8 /* YOSWordsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSWordsModel.m; sourceTree = "<group>"; };
+		DBD79C831A82D1270059F4D8 /* YOSWordsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YOSWordsTableViewController.h; sourceTree = "<group>"; };
+		DBD79C841A82D1270059F4D8 /* YOSWordsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YOSWordsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		DB0A601D1A69124A008D4F0E /* Frameworks */ = {
+		DBD79BE51A82C5250059F4D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB0A60301A69124B008D4F0E /* Frameworks */ = {
+		DBD79BF81A82C5250059F4D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -68,153 +68,151 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		DB0A60171A69124A008D4F0E = {
+		DBD79BDF1A82C5250059F4D8 = {
 			isa = PBXGroup;
 			children = (
-				DB0A60221A69124A008D4F0E /* Padawans */,
-				DB0A60361A69124B008D4F0E /* PadawansTests */,
-				DB0A60211A69124A008D4F0E /* Products */,
+				DBD79BEA1A82C5250059F4D8 /* Dictionary */,
+				DBD79BFE1A82C5250059F4D8 /* DictionaryTests */,
+				DBD79BE91A82C5250059F4D8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		DB0A60211A69124A008D4F0E /* Products */ = {
+		DBD79BE91A82C5250059F4D8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DB0A60201A69124A008D4F0E /* Padawans.app */,
-				DB0A60331A69124B008D4F0E /* PadawansTests.xctest */,
+				DBD79BE81A82C5250059F4D8 /* Dictionary.app */,
+				DBD79BFB1A82C5250059F4D8 /* DictionaryTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DB0A60221A69124A008D4F0E /* Padawans */ = {
+		DBD79BEA1A82C5250059F4D8 /* Dictionary */ = {
 			isa = PBXGroup;
 			children = (
-				DB529DD01A81A6E000339A12 /* Controllers */,
-				DB529DD11A81A6F000339A12 /* Models */,
-				DB0A60481A69193A008D4F0E /* Resources */,
-				DB0A60271A69124B008D4F0E /* AppDelegate.h */,
-				DB0A60281A69124B008D4F0E /* AppDelegate.m */,
-				DB0A602A1A69124B008D4F0E /* Images.xcassets */,
-				DB0A602C1A69124B008D4F0E /* LaunchScreen.xib */,
-				DB0A60231A69124A008D4F0E /* Supporting Files */,
+				DBD79C8C1A82D1C00059F4D8 /* Resources */,
+				DBD79C8A1A82D1820059F4D8 /* Controller */,
+				DBD79C8B1A82D1A10059F4D8 /* Models */,
+				DBD79BEF1A82C5250059F4D8 /* AppDelegate.h */,
+				DBD79C541A82CC440059F4D8 /* AppDelegate.m */,
+				DBD79BF21A82C5250059F4D8 /* Images.xcassets */,
+				DBD79BF41A82C5250059F4D8 /* LaunchScreen.xib */,
+				DBD79BEB1A82C5250059F4D8 /* Supporting Files */,
 			);
-			path = Padawans;
+			path = Dictionary;
 			sourceTree = "<group>";
 		};
-		DB0A60231A69124A008D4F0E /* Supporting Files */ = {
+		DBD79BEB1A82C5250059F4D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DB0A60241A69124A008D4F0E /* Info.plist */,
-				DB0A60251A69124B008D4F0E /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DB0A60361A69124B008D4F0E /* PadawansTests */ = {
-			isa = PBXGroup;
-			children = (
-				DB0A60391A69124B008D4F0E /* PadawansTests.m */,
-				DB0A60371A69124B008D4F0E /* Supporting Files */,
-			);
-			path = PadawansTests;
-			sourceTree = "<group>";
-		};
-		DB0A60371A69124B008D4F0E /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				DB0A60381A69124B008D4F0E /* Info.plist */,
+				DBD79BEC1A82C5250059F4D8 /* Info.plist */,
+				DBD79BED1A82C5250059F4D8 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DB0A60481A69193A008D4F0E /* Resources */ = {
+		DBD79BFE1A82C5250059F4D8 /* DictionaryTests */ = {
 			isa = PBXGroup;
 			children = (
-				DB529DC31A81A6A900339A12 /* vocabwords.txt */,
+				DBD79C011A82C5250059F4D8 /* DictionaryTests.m */,
+				DBD79BFF1A82C5250059F4D8 /* Supporting Files */,
 			);
-			name = Resources;
-			path = ..;
+			path = DictionaryTests;
 			sourceTree = "<group>";
 		};
-		DB529DD01A81A6E000339A12 /* Controllers */ = {
+		DBD79BFF1A82C5250059F4D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				DB529DC41A81A6A900339A12 /* YOSDefinitionViewController.h */,
-				DB529DC51A81A6A900339A12 /* YOSDefinitionViewController.m */,
-				DB529DC61A81A6A900339A12 /* YOSDefinitionViewController.xib */,
-				DB529DC91A81A6A900339A12 /* YOSWordsTableViewController.h */,
-				DB529DCA1A81A6A900339A12 /* YOSWordsTableViewController.m */,
+				DBD79C001A82C5250059F4D8 /* Info.plist */,
 			);
-			name = Controllers;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DB529DD11A81A6F000339A12 /* Models */ = {
+		DBD79C8A1A82D1820059F4D8 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DB529DC71A81A6A900339A12 /* YOSWordsModel.h */,
-				DB529DC81A81A6A900339A12 /* YOSWordsModel.m */,
+				DBD79C7E1A82D1270059F4D8 /* YOSDefinitionViewController.h */,
+				DBD79C7F1A82D1270059F4D8 /* YOSDefinitionViewController.m */,
+				DBD79C801A82D1270059F4D8 /* YOSDefinitionViewController.xib */,
+				DBD79C831A82D1270059F4D8 /* YOSWordsTableViewController.h */,
+				DBD79C841A82D1270059F4D8 /* YOSWordsTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DBD79C8B1A82D1A10059F4D8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DBD79C811A82D1270059F4D8 /* YOSWordsModel.h */,
+				DBD79C821A82D1270059F4D8 /* YOSWordsModel.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		DBD79C8C1A82D1C00059F4D8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DBD79C7D1A82D1270059F4D8 /* vocabwords.txt */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB0A601F1A69124A008D4F0E /* Padawans */ = {
+		DBD79BE71A82C5250059F4D8 /* Dictionary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB0A603D1A69124B008D4F0E /* Build configuration list for PBXNativeTarget "Padawans" */;
+			buildConfigurationList = DBD79C051A82C5250059F4D8 /* Build configuration list for PBXNativeTarget "Dictionary" */;
 			buildPhases = (
-				DB0A601C1A69124A008D4F0E /* Sources */,
-				DB0A601D1A69124A008D4F0E /* Frameworks */,
-				DB0A601E1A69124A008D4F0E /* Resources */,
+				DBD79BE41A82C5250059F4D8 /* Sources */,
+				DBD79BE51A82C5250059F4D8 /* Frameworks */,
+				DBD79BE61A82C5250059F4D8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Padawans;
-			productName = Padawans;
-			productReference = DB0A60201A69124A008D4F0E /* Padawans.app */;
+			name = Dictionary;
+			productName = Dictionary;
+			productReference = DBD79BE81A82C5250059F4D8 /* Dictionary.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DB0A60321A69124B008D4F0E /* PadawansTests */ = {
+		DBD79BFA1A82C5250059F4D8 /* DictionaryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB0A60401A69124B008D4F0E /* Build configuration list for PBXNativeTarget "PadawansTests" */;
+			buildConfigurationList = DBD79C081A82C5250059F4D8 /* Build configuration list for PBXNativeTarget "DictionaryTests" */;
 			buildPhases = (
-				DB0A602F1A69124B008D4F0E /* Sources */,
-				DB0A60301A69124B008D4F0E /* Frameworks */,
-				DB0A60311A69124B008D4F0E /* Resources */,
+				DBD79BF71A82C5250059F4D8 /* Sources */,
+				DBD79BF81A82C5250059F4D8 /* Frameworks */,
+				DBD79BF91A82C5250059F4D8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DB0A60351A69124B008D4F0E /* PBXTargetDependency */,
+				DBD79BFD1A82C5250059F4D8 /* PBXTargetDependency */,
 			);
-			name = PadawansTests;
-			productName = PadawansTests;
-			productReference = DB0A60331A69124B008D4F0E /* PadawansTests.xctest */;
+			name = DictionaryTests;
+			productName = DictionaryTests;
+			productReference = DBD79BFB1A82C5250059F4D8 /* DictionaryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		DB0A60181A69124A008D4F0E /* Project object */ = {
+		DBD79BE01A82C5250059F4D8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = YOS;
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = yos;
+				ORGANIZATIONNAME = YOS;
 				TargetAttributes = {
-					DB0A601F1A69124A008D4F0E = {
+					DBD79BE71A82C5250059F4D8 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					DB0A60321A69124B008D4F0E = {
+					DBD79BFA1A82C5250059F4D8 = {
 						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = DB0A601F1A69124A008D4F0E;
+						TestTargetID = DBD79BE71A82C5250059F4D8;
 					};
 				};
 			};
-			buildConfigurationList = DB0A601B1A69124A008D4F0E /* Build configuration list for PBXProject "Padawans" */;
+			buildConfigurationList = DBD79BE31A82C5250059F4D8 /* Build configuration list for PBXProject "Dictionary" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -222,30 +220,30 @@
 				en,
 				Base,
 			);
-			mainGroup = DB0A60171A69124A008D4F0E;
-			productRefGroup = DB0A60211A69124A008D4F0E /* Products */;
+			mainGroup = DBD79BDF1A82C5250059F4D8;
+			productRefGroup = DBD79BE91A82C5250059F4D8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB0A601F1A69124A008D4F0E /* Padawans */,
-				DB0A60321A69124B008D4F0E /* PadawansTests */,
+				DBD79BE71A82C5250059F4D8 /* Dictionary */,
+				DBD79BFA1A82C5250059F4D8 /* DictionaryTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		DB0A601E1A69124A008D4F0E /* Resources */ = {
+		DBD79BE61A82C5250059F4D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB0A602E1A69124B008D4F0E /* LaunchScreen.xib in Resources */,
-				DB529DCD1A81A6A900339A12 /* YOSDefinitionViewController.xib in Resources */,
-				DB529DCB1A81A6A900339A12 /* vocabwords.txt in Resources */,
-				DB0A602B1A69124B008D4F0E /* Images.xcassets in Resources */,
+				DBD79BF61A82C5250059F4D8 /* LaunchScreen.xib in Resources */,
+				DBD79C851A82D1270059F4D8 /* vocabwords.txt in Resources */,
+				DBD79BF31A82C5250059F4D8 /* Images.xcassets in Resources */,
+				DBD79C871A82D1270059F4D8 /* YOSDefinitionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB0A60311A69124B008D4F0E /* Resources */ = {
+		DBD79BF91A82C5250059F4D8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,41 +253,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		DB0A601C1A69124A008D4F0E /* Sources */ = {
+		DBD79BE41A82C5250059F4D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB529DCC1A81A6A900339A12 /* YOSDefinitionViewController.m in Sources */,
-				DB529DCE1A81A6A900339A12 /* YOSWordsModel.m in Sources */,
-				DB529DCF1A81A6A900339A12 /* YOSWordsTableViewController.m in Sources */,
-				DB0A60291A69124B008D4F0E /* AppDelegate.m in Sources */,
-				DB0A60261A69124B008D4F0E /* main.m in Sources */,
+				DBD79C861A82D1270059F4D8 /* YOSDefinitionViewController.m in Sources */,
+				DBD79C881A82D1270059F4D8 /* YOSWordsModel.m in Sources */,
+				DBD79C891A82D1270059F4D8 /* YOSWordsTableViewController.m in Sources */,
+				DBD79BEE1A82C5250059F4D8 /* main.m in Sources */,
+				DBD79C551A82CC440059F4D8 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB0A602F1A69124B008D4F0E /* Sources */ = {
+		DBD79BF71A82C5250059F4D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB0A603A1A69124B008D4F0E /* PadawansTests.m in Sources */,
+				DBD79C021A82C5250059F4D8 /* DictionaryTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		DB0A60351A69124B008D4F0E /* PBXTargetDependency */ = {
+		DBD79BFD1A82C5250059F4D8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DB0A601F1A69124A008D4F0E /* Padawans */;
-			targetProxy = DB0A60341A69124B008D4F0E /* PBXContainerItemProxy */;
+			target = DBD79BE71A82C5250059F4D8 /* Dictionary */;
+			targetProxy = DBD79BFC1A82C5250059F4D8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DB0A602C1A69124B008D4F0E /* LaunchScreen.xib */ = {
+		DBD79BF41A82C5250059F4D8 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DB0A602D1A69124B008D4F0E /* Base */,
+				DBD79BF51A82C5250059F4D8 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -297,7 +295,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		DB0A603B1A69124B008D4F0E /* Debug */ = {
+		DBD79C031A82C5250059F4D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -335,11 +333,11 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DB0A603C1A69124B008D4F0E /* Release */ = {
+		DBD79C041A82C5250059F4D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -370,34 +368,32 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = 2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		DB0A603E1A69124B008D4F0E /* Debug */ = {
+		DBD79C061A82C5250059F4D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Padawans/Info.plist;
+				INFOPLIST_FILE = Dictionary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		DB0A603F1A69124B008D4F0E /* Release */ = {
+		DBD79C071A82C5250059F4D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Padawans/Info.plist;
+				INFOPLIST_FILE = Dictionary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		DB0A60411A69124B008D4F0E /* Debug */ = {
+		DBD79C091A82C5250059F4D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -409,14 +405,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PadawansTests/Info.plist;
+				INFOPLIST_FILE = DictionaryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Padawans.app/Padawans";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dictionary.app/Dictionary";
 			};
 			name = Debug;
 		};
-		DB0A60421A69124B008D4F0E /* Release */ = {
+		DBD79C0A1A82C5250059F4D8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -424,44 +420,44 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = PadawansTests/Info.plist;
+				INFOPLIST_FILE = DictionaryTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Padawans.app/Padawans";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dictionary.app/Dictionary";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DB0A601B1A69124A008D4F0E /* Build configuration list for PBXProject "Padawans" */ = {
+		DBD79BE31A82C5250059F4D8 /* Build configuration list for PBXProject "Dictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB0A603B1A69124B008D4F0E /* Debug */,
-				DB0A603C1A69124B008D4F0E /* Release */,
+				DBD79C031A82C5250059F4D8 /* Debug */,
+				DBD79C041A82C5250059F4D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB0A603D1A69124B008D4F0E /* Build configuration list for PBXNativeTarget "Padawans" */ = {
+		DBD79C051A82C5250059F4D8 /* Build configuration list for PBXNativeTarget "Dictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB0A603E1A69124B008D4F0E /* Debug */,
-				DB0A603F1A69124B008D4F0E /* Release */,
+				DBD79C061A82C5250059F4D8 /* Debug */,
+				DBD79C071A82C5250059F4D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB0A60401A69124B008D4F0E /* Build configuration list for PBXNativeTarget "PadawansTests" */ = {
+		DBD79C081A82C5250059F4D8 /* Build configuration list for PBXNativeTarget "DictionaryTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB0A60411A69124B008D4F0E /* Debug */,
-				DB0A60421A69124B008D4F0E /* Release */,
+				DBD79C091A82C5250059F4D8 /* Debug */,
+				DBD79C0A1A82C5250059F4D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = DB0A60181A69124A008D4F0E /* Project object */;
+	rootObject = DBD79BE01A82C5250059F4D8 /* Project object */;
 }

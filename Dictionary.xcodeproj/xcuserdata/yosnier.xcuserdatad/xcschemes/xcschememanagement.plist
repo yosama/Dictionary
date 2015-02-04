@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Padawans.xcscheme</key>
+		<key>Dictionary.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DB0A601F1A69124A008D4F0E</key>
+		<key>DBD79BE71A82C5250059F4D8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DB0A60321A69124B008D4F0E</key>
+		<key>DBD79BFA1A82C5250059F4D8</key>
 		<dict>
 			<key>primary</key>
 			<true/>

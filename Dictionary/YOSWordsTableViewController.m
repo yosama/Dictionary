@@ -8,6 +8,7 @@
 
 #import "YOSWordsTableViewController.h"
 #import "YOSDefinitionViewController.h"
+#import "UIViewController+Navigation.h"
 
 @interface YOSWordsTableViewController ()
 
@@ -18,6 +19,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title =@"English Vocabulary";
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -76,6 +78,9 @@
     [self.delegate wordsTableViewController:self
                              didClickOnWord:wordSelect];
     
-  }
+    YOSDefinitionViewController *definitionVC = [[YOSDefinitionViewController alloc] initWithModel:wordSelect];
+    [self.navigationController pushViewController:definitionVC animated:YES];
+    
+}
 
 @end

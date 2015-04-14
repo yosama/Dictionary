@@ -20,10 +20,17 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
      self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
+    YOSWordsModel *model = [[YOSWordsModel alloc]init];
+    YOSWordsTableViewController *wordsTVC = [[YOSWordsTableViewController alloc] initWithModel:model
+                                                                                         style:UITableViewStylePlain];
+    
+    YOSDefinitionViewController *definitionVC = [[YOSDefinitionViewController alloc] initWithModel:[model wordAtIndex:0 inLetterAtIndex:0]];
+    wordsTVC.delegate = definitionVC;
+    
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad ) {
-        [self configureForIpad];
+        [self configureForIpadByLeftView:wordsTVC rigthView:definitionVC];
     } else {
-        [self configureForIPhone];
+        [self configureForIPhoneByLeftView:wordsTVC rigthView:definitionVC];
     }
     [self.window makeKeyAndVisible];
     
@@ -54,33 +61,16 @@
 
 #pragma mark - Configuration
 
--(void) configureForIpad {
-    
-    YOSWordsModel *model = [[YOSWordsModel alloc]init];
-    YOSWordsTableViewController *wordsTVC = [[YOSWordsTableViewController alloc] initWithModel:model
-                                                                                        style:UITableViewStylePlain];
-    
-    YOSDefinitionViewController *definitionVC = [[YOSDefinitionViewController alloc] initWithModel:[model wordAtIndex:0 inLetterAtIndex:0]];
-    
+-(void) configureForIpadByLeftView:(YOSWordsTableViewController *) wordsTVC rigthView:(YOSDefinitionViewController *) definitionVC {
+
     UISplitViewController *splitVC = [[UISplitViewController alloc] init];
     [splitVC setViewControllers:@[[wordsTVC wrapperNavigation], [definitionVC wrapperNavigation]]];
-    
-    // Assign Delegate
+
     splitVC.delegate = definitionVC;
-    wordsTVC.delegate = definitionVC;
-    
     self.window.rootViewController = splitVC;
 }
 
--(void) configureForIPhone {
-    
-    YOSWordsModel *model = [[YOSWordsModel alloc]init];
-    YOSWordsTableViewController *wordsTVC = [[YOSWordsTableViewController alloc] initWithModel:model
-                                                                                         style:UITableViewStylePlain];
-
-    YOSDefinitionViewController *definitionVC = [[YOSDefinitionViewController alloc] initWithModel:[model wordAtIndex:0 inLetterAtIndex:0]];
-    // Assign Delegate
-    wordsTVC.delegate = definitionVC;
+-(void) configureForIPhoneByLeftView:(YOSWordsTableViewController *) wordsTVC rigthView:(YOSDefinitionViewController *) definitionVC {
     self.window.rootViewController =  [wordsTVC wrapperNavigation];
 }
 

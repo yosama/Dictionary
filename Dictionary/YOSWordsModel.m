@@ -11,11 +11,9 @@
 @implementation YOSWordsModel
 
 
--(id) init
-{
+-(id) init {
     
-    if (self = [super init]){
-        
+    if (self = [super init]) {
         NSURL *urlToFile = [[NSBundle mainBundle] URLForResource:@"vocabwords"
                                                    withExtension:@"txt"];
         
@@ -26,7 +24,6 @@
 
 
 #pragma mark - Utils
-
 
 // Devuelve un NSArray ordenado de letras, Es decir, devuelve el alfabeto, de la a a la z.
 -(NSArray *) letters{
@@ -51,8 +48,6 @@
     NSArray *wordsThatStartWithLetter = [self.words objectForKey:letter];
     return [wordsThatStartWithLetter objectAtIndex:aWordIndex];
 }
-
-
 
 //Devuelve un NSArray ordenado de palabras que empiezan por aquella letra que está en la posición pedida. Por ejemplo, si
 // mandamos el mensaje wordsAtIndex:0, nos devolverá un array ordenado con todas aquellas palabras que empiezan por la a.

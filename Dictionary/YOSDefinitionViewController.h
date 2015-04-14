@@ -19,9 +19,7 @@
 @property (weak,nonatomic) IBOutlet UIWebView *browser;
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activityIndicator;
 
-
 // Designated
-
 -(id) initWithModel:(NSString *) aModel;
 
 @end

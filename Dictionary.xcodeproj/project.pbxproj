@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB7227A31ADD83C70095F477 /* UIViewController+Navigation.m in Sources */ = {isa = PBXBuildFile; fileRef = DB7227A21ADD83C70095F477 /* UIViewController+Navigation.m */; };
 		DBD79BEE1A82C5250059F4D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD79BED1A82C5250059F4D8 /* main.m */; };
 		DBD79BF31A82C5250059F4D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBD79BF21A82C5250059F4D8 /* Images.xcassets */; };
 		DBD79BF61A82C5250059F4D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD79BF41A82C5250059F4D8 /* LaunchScreen.xib */; };
@@ -30,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB7227A11ADD83C70095F477 /* UIViewController+Navigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Navigation.h"; sourceTree = "<group>"; };
+		DB7227A21ADD83C70095F477 /* UIViewController+Navigation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Navigation.m"; sourceTree = "<group>"; };
 		DBD79BE81A82C5250059F4D8 /* Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD79BEC1A82C5250059F4D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBD79BED1A82C5250059F4D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -68,6 +71,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB7227A41ADD83D40095F477 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DB7227A11ADD83C70095F477 /* UIViewController+Navigation.h */,
+				DB7227A21ADD83C70095F477 /* UIViewController+Navigation.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
 		DBD79BDF1A82C5250059F4D8 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +101,7 @@
 		DBD79BEA1A82C5250059F4D8 /* Dictionary */ = {
 			isa = PBXGroup;
 			children = (
+				DB7227A41ADD83D40095F477 /* Categories */,
 				DBD79C8C1A82D1C00059F4D8 /* Resources */,
 				DBD79C8A1A82D1820059F4D8 /* Controller */,
 				DBD79C8B1A82D1A10059F4D8 /* Models */,
@@ -257,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB7227A31ADD83C70095F477 /* UIViewController+Navigation.m in Sources */,
 				DBD79C861A82D1270059F4D8 /* YOSDefinitionViewController.m in Sources */,
 				DBD79C881A82D1270059F4D8 /* YOSWordsModel.m in Sources */,
 				DBD79C891A82D1270059F4D8 /* YOSWordsTableViewController.m in Sources */,

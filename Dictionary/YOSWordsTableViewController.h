@@ -18,13 +18,9 @@
 
 @end
 
-
-
 @interface YOSWordsTableViewController : UITableViewController
 
 @property (strong) YOSWordsModel* wordsModel;
-
-// Las propiedades de delegate son siempre weak
 @property (weak) id<YOSWordsTableViewControllerDelegate> delegate;
 
 -(id) initWithModel: (YOSWordsModel *) pModel style: (UITableViewStyle) style;

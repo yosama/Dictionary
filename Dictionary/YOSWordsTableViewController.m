@@ -19,7 +19,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title =@"English Vocabulary";
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -38,17 +37,14 @@
 
 #pragma mark - Table view data source
 
-// count section
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return [self.wordsModel.letters count];
 }
 
-// count row by section
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return [[self.wordsModel wordsAtIndex:section] count] ;
 }
 
-// The section title
 -(NSString *) tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
     return [self.wordsModel letterAtIndex:section];
 }

@@ -41,7 +41,6 @@
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    
 }
 
 #pragma mark - Utils
@@ -72,7 +71,6 @@
 -(void) splitViewController:(UISplitViewController *)svc willShowViewController:(UIViewController *)aViewController invalidatingBarButtonItem:(UIBarButtonItem *)barButtonItem {
     
     self.navigationItem.leftBarButtonItem = nil;
-    
 }
 
 #pragma mark - YOSWordsTableViewControllerDelegate
